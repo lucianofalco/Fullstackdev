@@ -1,0 +1,28 @@
+#titulo /* para seleccion un id usamos #*/
+{
+    color: aqua ;
+}
+
+p.especial  /* parrafo especial color violeta */
+{
+    color :blueviolet ; 
+}
+
+p.texto /* para seleccionar un class usamos .nombreDeLaClass*/
+{
+    color: tomato  ;
+}
+div p /* en todos los div que contengan un parrafo dara el siguiente estilo*/
+{
+    color: rgb(2, 76, 142);
+}
+div h2 , h3 /* a las etiquetas h2 y h3 q esten dentro de div les asigno color brewon*/
+{
+    color : brown
+}
+
+* /* es un selecctor universal */
+{
+    font-size: 24px ;
+    color : black ; /* todos los elementos que no tengan un selector seran modificado  */
+}
